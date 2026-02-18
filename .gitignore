@@ -1,5 +1,7 @@
 **/.DS_Store
 CubeMX/.mxproject
 CubeMX/cmake/**
+CubeMX/CMakeLists.txt
+CubeMX/CMakePresets.json
 CubeMX/startup_*.s
 CubeMX/*_FLASH.ld
