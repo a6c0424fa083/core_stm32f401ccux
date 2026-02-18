@@ -1,2 +1,5 @@
 **/.DS_Store
-
+CubeMX/.mxproject
+CubeMX/cmake/**
+CubeMX/startup_*.s
+CubeMX/*_FLASH.ld
