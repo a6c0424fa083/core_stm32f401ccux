@@ -18,7 +18,6 @@ set(MAIN_SRCS
     CACHE INTERNAL
         "the main sources"
 )
-
 set(MAIN_DIRS
     ${CMAKE_CURRENT_SOURCE_DIR}/CubeMX/Inc
 
@@ -30,13 +29,11 @@ target_sources(${MAIN_TARGET_NAME}
     PRIVATE
         ${MAIN_SRCS}
 )
-
 target_include_directories(${MAIN_TARGET_NAME}
     PUBLIC
         ${CMAKE_BINARY_DIR}/generated
         ${MAIN_DIRS}
 )
-
 target_link_libraries(${MAIN_TARGET_NAME}
     PRIVATE
         HAL_LIB
