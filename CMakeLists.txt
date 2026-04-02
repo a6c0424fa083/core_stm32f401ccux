@@ -37,4 +37,5 @@ target_include_directories(${MAIN_TARGET_NAME}
 target_link_libraries(${MAIN_TARGET_NAME}
     PRIVATE
         HAL_LIB
+        RTT_LIB
 )
